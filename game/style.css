@@ -1,0 +1,150 @@
+body {
+
+	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
+    background-size: cover;
+    background-position: center center;
+	font-family: monospace;
+
+}
+
+/*Stuff below governs the start screen*/
+
+.titleContent {
+	margin: 10% auto;
+    text-align: center;
+}
+
+.splashTitle {
+	color: #fff;
+    font-size: 8em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+}
+
+.button {
+	border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #abc;
+    box-shadow: 15px 15px 80px #555;
+}
+  a.button:hover {
+    background-color: #383838;
+    color: #abc;
+  }
+
+
+
+/*Stuff below governs the Explore screen*/
+
+#exploreBody {
+	background-image: url("img/exploreHome1.jpg");
+	background-position: bottom center;
+
+}
+
+.go {
+	position: absolute;
+	color: white;
+	position: absolute;
+    padding: 20px 10px;
+    color: white;
+    font-size: 6em;
+    box-shadow: 5px 5px 20px #84999A;
+
+}
+
+#goLeft1 {
+    left: 40px;
+    top: 40%;
+    display: block;
+}
+
+#goRight1 {
+    right: 40px;
+    top: 40%;
+    display: block;
+}
+
+#goRight-Straight1 {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
+#goLeft-Straight1 {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
+#goRight-Straight2 {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
+#goLeft-Straight2 {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
+#goRight-Right2 {
+    right: 40px;
+    top: 40%;
+    display: none;
+}
+
+#goLeft-Straight3 {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
+#goBack {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
+
+.hudBase {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 10px 30px;
+}
+
+.hudInv {
+    width: 50%;
+    display: inline-block;
+    margin-left: 10%;
+    color: #bbb;
+}
+
+.hudObj {
+    width: 35%;
+    display: inline-block;
+    padding: 10px;
+}
+
+#invTitle {
+display: inline;
+
+}
+
+.invSlot1 {
+	display: inline;
+	width: 80px;
+	height: 80px;
+	border: 5px dashed #bbb;
+	padding: 10px 10px;
+    margin: 20px;
+    font-size:0.6em;
+}
