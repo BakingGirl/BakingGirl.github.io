@@ -4,7 +4,7 @@ body {
     background-size: cover;
     background-position: center center;
 	font-family: monospace;
-
+    background-repeat:no-repeat
 }
 
 /*Stuff below governs the start screen*/
@@ -41,10 +41,11 @@ body {
 
 #exploreBody {
 	background-image: url("img/forest.jpg");
-	background-position: bottom center;
-
-}
-
+	background-position: top center;
+    background-repeat: no-repeat;
+    width:1000px;
+    height: 1000px;    
+   }
 .go {
 	position: absolute;
 	color: white;
@@ -55,6 +56,104 @@ body {
     box-shadow: 5px 5px 20px #84999A;
 
 }
+#DANTDM {
+
+width: 100px;
+height: 150px;
+margin-left: 150px;
+margin-top:300px;
+background-image: url("img/puppy2.jpg");
+position: absolute;
+background-size:100px 100px;
+background-repeat:no-repeat
+
+}
+#DANBOY{
+
+width: 250px;
+height: 350px;
+margin-left: 1500px;
+margin-top:900px;
+background-image: url("img/puppy4.png");
+position: absolute;
+
+
+}
+#DANGIRL{
+
+width: 250px;
+height: 350px;
+margin-left: 525px;
+margin-top:900px;
+background-image: url("img/kitty.png");
+position: absolute;
+
+
+
+}
+
+#LILY{
+
+width: 350px;
+height: 550px;
+margin-left: 525px;
+margin-top:900px;
+background-image: url("img/puppy1.png");
+position: absolute;
+background-repeat:no-repeat;
+background-size:100px 100px;
+}
+
+#CLAIRE{
+
+width: 100px;
+height: 100px;
+margin-left: 525px;
+margin-top:500px;
+background-image: url("img/cute.png");
+position: absolute;
+background-repeat:no-repeat;
+background-size:100px 100px;
+
+}
+
+#SAM{
+
+width: 100px;
+height: 100px;
+margin-left: 355px;
+margin-top:340px;
+background-image: url("http://2.bp.blogspot.com/-iCI7F7kL51Y/UKDILhAKBcI/AAAAAAAAAHU/I0MMLXQDSfM/s1600/Cute+Kittens+Pets_01.png");
+position: absolute;
+background-repeat:no-repeat;
+background-size:100px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 #goLeft1 {
     left: 40px;
@@ -131,6 +230,12 @@ body {
 .hudObj {
     width: 35%;
     display: inline-block;
+
+
+
+
+
+
     padding: 10px;
 }
 
